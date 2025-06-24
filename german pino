@@ -1,0 +1,43 @@
+entrada_trap = [
+    {
+        "nombre":"joe el trap",
+        "tipo_entrada":"",
+        "codigo":"germ12",
+    },
+    {
+        "nombre":"lucia",
+        "tipo_entrada":"",
+        "codigo":"pino123",
+    },
+    {
+        "nombre":"cepeda",
+        "tipo_":"nose encuentra",
+    }
+]
+
+while True:
+
+    print("---menu trap---")
+    print("opcion 1.comprar entrada:")
+    print("opcion 2.consultar comprador:")
+    print("opcion 3.cancelara compra:")
+    print("4.salir.ingrese opcion:")    
+    opcion = int(input("Ingresa una opcion:"))
+    def validar_coprador(codigo):
+        if len(codigo) != 6 or not codigo.isalnum():
+            print("el codigo devetener 6 caracteres")
+            return
+        if any (["codigo"].lower()== codigo.lower for e in entrada_trap):
+            print(" este codigo ya esta en uso")
+            return False
+        return True
+    def resgistra_comprador(nombre):
+        input("ingresa el nombre")
+        input(" ingrese tipo de entrada")
+        input(" ingrese el codigo")
+
+        if opcion == "1":
+            print("ingrese el nombre del comprador:")
+        elif opcion == "2":
+            print("")
+
